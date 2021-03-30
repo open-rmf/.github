@@ -4,7 +4,7 @@ For general questions and design discussion, please use the Discussions page: ht
 Not sure if this is the right repository? Open an issue on https://github.com/open-rmf/rmf
 We require contributors to GPG Sign their commits. Follow the guide here to set up a GPG key and add it to your GitHub account: https://docs.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key
 A quick guide to how to sign your commits can be seen here: https://gist.github.com/mort3za/ad545d47dd2b54970c102fe39912f305
-To GPG sign a bunch of commits at once, you can do: git rebase --exec 'git commit --amend --no-edit -n -S' -i <commit before the first commit you want signed>. Then do a force-push
+To GPG sign several commits at once (for example, if you forgot to sign some commits), you can run this command, followed by a force-push: git rebase --exec 'git commit --amend --no-edit -n -S' -i <commit before the first commit you want signed>
 For bug fix pull requests, please fill out the information below.
 Be as detailed as possible.
 -->
