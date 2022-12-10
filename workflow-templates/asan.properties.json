@@ -1,0 +1,7 @@
+{
+    "name": "ASAN workflow",
+    "description": "ASAN workflow for RMF ROS packages.",
+    "categories": [
+        "C++"
+    ]
+}
