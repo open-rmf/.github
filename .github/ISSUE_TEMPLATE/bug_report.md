@@ -21,9 +21,9 @@ Be as detailed as possible.
 
 - Operating system and version:
   - <!-- OS and version (e.g. Ubuntu 20.04, MacOS 10.17, Windows 10 build 1817) -->
-- OpenRMF installation type:
-  - <!-- How did you install OpenRMF? From source, from binaries, Docker, etc. Link to a guide if you followed one. -->
-- OpenRMF version or commit hash
+- Open-RMF installation type:
+  - <!-- How did you install Open-RMF? From source, from binaries, Docker, etc. Link to a guide if you followed one. -->
+- Open-RMF version or commit hash
   - <!-- If from binaries or docker, give the version. If from source, give the output of git rev-parse HEAD or the repos file you use -->
 - ROS distribution and version:
   - <!-- State the name of the ROS distribution you are using, and if applicable a patch version -->
