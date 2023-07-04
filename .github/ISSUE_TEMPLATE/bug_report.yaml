@@ -1,0 +1,149 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For general questions and design discussion, please use the Discussions page: https://github.com/open-rmf/rmf/discussions
+        Not sure if this is the right repository? Open an issue on https://github.com/open-rmf/rmf
+        For feature requests, please use the feature request issue form.
+        Be as detailed about your issue as possible.
+
+  - type: checkboxes
+    id: checked-issues
+    attributes:
+      label: Before proceeding, is there an existing issue or discussion for this?
+      options:
+        - label: I have done a search for similar [issues](.?q=type%3Aissue) and [discussions](https://github.com/open-rmf/rmf/discussions).
+          required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: OS and version
+      description: What OS and version are you running? (e.g. Ubuntu 20.04, MacOS 10.17, Windows 10 build 1817)
+      placeholder: Ubuntu 22.04
+    validations:
+      required: true
+
+  - type: dropdown
+    id: installation-type
+    attributes:
+      label: Open-RMF installation type
+      description: How did you install Open-RMF? From source, from binaries, Docker, etc.
+      options:
+        - Source build
+        - Binaries
+        - Docker
+        - Others
+    validations:
+      required: true
+
+  - type: input
+    id: other-installation-type
+    attributes:
+      label: Other Open-RMF installation methods
+      description: Link to guide if Others was selected.
+    validations:
+      required: false
+
+  - type: input
+    id: installation-version
+    attributes:
+      label: Open-RMF version or commit hash
+      description: If from binaries or docker, give the version. If from source, give the output of git rev-parse HEAD or the repos file you use.
+      placeholder: 2.3.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: ros-distribution
+    attributes:
+      label: ROS distribution
+      description: State the name of the ROS distribution you are using. Note that we are only support Humble and above, please migrate to a supported distribution if the distribution is not found here.
+      options:
+        - Rolling
+        - Iron
+        - Humble
+    validations:
+      required: true
+
+  - type: dropdown
+    id: ros-installation-type
+    attributes:
+      label: ROS installation type
+      description: How did you install ROS? From source, from binaries, Docker, etc.
+      options:
+        - Source build
+        - Binaries
+        - Docker
+        - Others
+    validations:
+      required: true
+
+  - type: input
+    id: other-ros-installation-type
+    attributes:
+      label: Other ROS installation methods
+      description: Link to guide if Others was selected.
+    validations:
+      required: false
+
+  - type: input
+    id: package-or-library
+    attributes:
+      label: Package or library, if applicable
+      description: Which packages or libraries is this bug report related to?
+    validations:
+      required: false
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Description of the bug
+      description: Provide a clear and concise description of what the bug is.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce-bug
+    attributes:
+      label: Steps to reproduce the bug
+      description: Detailed instructions on how to reliably reproduce the bug.
+      placeholder: |
+        1. Launch RMF using `ros2 launch rmf_demos office_demo.launch`
+        1. Launch rviz using `rviz`
+        1. Add the traffic visualiser
+        1. ...
+        1. See the error displayed
+
+        Provide a short, self-contained, correct example: http://sscce.org/
+        If you include code, do not use a screenshot, use a codeblock or a gist instead, https://gist.github.com
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: A clear and detailed description of what you expected to happen.
+    validations:
+      required: false
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual behavior
+      description: A clear and detailed description of what actually happens.
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Additional information or screenshots
+      description: Add any other context about the problem here, or attach screenshots.
+    validations:
+      required: false
