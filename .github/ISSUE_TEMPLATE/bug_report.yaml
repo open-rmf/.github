@@ -62,7 +62,7 @@ body:
     id: ros-distribution
     attributes:
       label: ROS distribution
-      description: State the name of the ROS distribution you are using. Note that we are only support Humble and above, please migrate to a supported distribution if the distribution is not found here.
+      description: State the name of the ROS distribution you are using. Note that we are only supporting Humble and above, please migrate to a supported distribution if the distribution is not found here.
       options:
         - Rolling
         - Iron
@@ -114,10 +114,10 @@ body:
       description: Detailed instructions on how to reliably reproduce the bug.
       placeholder: |
         1. Launch RMF using `ros2 launch rmf_demos office_demo.launch`
-        1. Launch rviz using `rviz`
-        1. Add the traffic visualiser
-        1. ...
-        1. See the error displayed
+        2. Launch rviz using `rviz`
+        3. Add the traffic visualiser
+        4. ...
+        5. See the error displayed
 
         Provide a short, self-contained, correct example: http://sscce.org/
         If you include code, do not use a screenshot, use a codeblock or a gist instead, https://gist.github.com
