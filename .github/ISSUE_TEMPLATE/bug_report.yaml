@@ -53,8 +53,8 @@ body:
     id: installation-version
     attributes:
       label: Open-RMF version or commit hash
-      description: If from binaries or docker, give the version. If from source, give the output of git rev-parse HEAD or the repos file you use.
-      placeholder: 2.3.0
+      description: If from binaries or docker, give the version of the specific RMF package or provide the RMF [release tag](https://github.com/open-rmf/rmf/tags). You may check for package versions with dpkg -l | grep rmf. If from source, give the output of git rev-parse HEAD or the repos file you use.
+      placeholder: release-jazzy-240617
     validations:
       required: true
 
