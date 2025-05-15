@@ -46,4 +46,4 @@ We follow [OSRA's policy on GenAI tools](https://github.com/openrobotics/osrf-po
 - [ ] I used a GenAI tool in this PR. 
 - [ ] I did not use GenAI
 
-Details of which tool was used: 
+Generated-by: 
