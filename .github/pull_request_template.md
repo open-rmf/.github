@@ -1,6 +1,6 @@
 <!--
 For support requests, please read the Support Guidelines to know where to ask: https://github.com/open-rmf/rmf/wiki/Support-guidelines
-For general questions and design discussion, please use the Discourse page: https://discourse.openrobotics.org/c/open-rmf
+For general questions and design discussion, please use the Discourse [discussions page](https://discourse.openrobotics.org/c/open-rmf/open-rmf-general/103) or [proposals page](https://discourse.openrobotics.org/c/open-rmf/open-rmf-ideas/105).
 Not sure if this is the right repository? Open an issue on https://github.com/open-rmf/rmf
 We require contributors to GPG Sign their commits. Follow the guide here to set up a GPG key and add it to your GitHub account: https://docs.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key
 A quick guide to how to sign your commits can be seen here: https://gist.github.com/mort3za/ad545d47dd2b54970c102fe39912f305
