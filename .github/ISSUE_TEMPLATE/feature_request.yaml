@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        For general questions and design discussion, please use the Discussions page: https://github.com/open-rmf/rmf/discussions
+        For general questions and design discussion, please use the Discourse page: https://discourse.openrobotics.org/c/open-rmf
         Not sure if this is the right repository? Open an issue on https://github.com/open-rmf/rmf
         For bug reports, please use the bug report issue form.
         Be as detailed about your issue as possible.
@@ -16,7 +16,7 @@ body:
     attributes:
       label: Before proceeding, is there an existing issue or discussion for this?
       options:
-        - label: I have done a search for similar [issues](.?q=type%3Aissue) and [discussions](https://github.com/open-rmf/rmf/discussions).
+        - label: I have done a search for similar [issues](.?q=type%3Aissue) and [discussions](https://discourse.openrobotics.org/c/open-rmf).
           required: true
 
   - type: textarea

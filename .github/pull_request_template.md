@@ -1,6 +1,6 @@
 <!--
 For support requests, please read the Support Guidelines to know where to ask: https://github.com/open-rmf/rmf/wiki/Support-guidelines
-For general questions and design discussion, please use the Discussions page: https://github.com/open-rmf/rmf/discussions
+For general questions and design discussion, please use the Discourse page: https://discourse.openrobotics.org/c/open-rmf
 Not sure if this is the right repository? Open an issue on https://github.com/open-rmf/rmf
 We require contributors to GPG Sign their commits. Follow the guide here to set up a GPG key and add it to your GitHub account: https://docs.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key
 A quick guide to how to sign your commits can be seen here: https://gist.github.com/mort3za/ad545d47dd2b54970c102fe39912f305
@@ -43,7 +43,7 @@ Usually this is done via the feature request issue. -->
 ### GenAI Use
 We follow [OSRA's policy on GenAI tools](https://github.com/openrobotics/osrf-policies-and-procedures/blob/main/OSRF%20Policy%20on%20the%20Use%20of%20Generative%20Tools%20(%E2%80%9CGenerative%20AI%E2%80%9D)%20in%20Contributions.md)
 
-- [ ] I used a GenAI tool in this PR. 
+- [ ] I used a GenAI tool in this PR.
 - [ ] I did not use GenAI
 
-Generated-by: 
+Generated-by:
