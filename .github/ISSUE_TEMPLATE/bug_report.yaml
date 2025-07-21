@@ -16,7 +16,7 @@ body:
     attributes:
       label: Before proceeding, is there an existing issue or discussion for this?
       options:
-        - label: I have done a search for similar [issues](.?q=type%3Aissue) and [discussions](https://discourse.openrobotics.org/c/open-rmf).
+        - label: I have done a search for similar [issues](.?q=type%3Aissue) and [discussions](https://discourse.openrobotics.org/c/open-rmf/open-rmf-general/103).
           required: true
 
   - type: input
