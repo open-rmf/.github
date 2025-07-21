@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        For general questions and design discussion, please use the Discourse page: https://discourse.openrobotics.org/c/open-rmf
+        For general questions and design discussion, please use the Discourse page: https://discourse.openrobotics.org/c/open-rmf/open-rmf-general/103
         Not sure if this is the right repository? Open an issue on https://github.com/open-rmf/rmf
         For feature requests, please use the feature request issue form.
         Be as detailed about your issue as possible.
